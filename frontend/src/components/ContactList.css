@@ -1,0 +1,88 @@
+.contact-list {
+    margin-top: 20px;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.contact-list h2 {
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    flex: 1;
+    background-color: #444;
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+    cursor: pointer;
+}
+
+table th, table td {
+    border-right: 1px solid #ddd;
+    padding: 15px;
+}
+
+table th:last-child, table td:last-child {
+    border-right: none;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.crud-operations button {
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.crud-operations button:hover {
+    background-color: #007777;
+}
+
+.crud-operations button:active {
+    transform: scale(0.95);
+}
+
+.contact-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+tbody tr:hover {
+    background-color: #444;
+}
